@@ -3,7 +3,7 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net8.0-ios</ActiveDebugFramework>
-    <ActiveDebugProfile>Simulator</ActiveDebugProfile>
+    <ActiveDebugProfile>iPhone 14 Pro Max iOS 16.2</ActiveDebugProfile>
     <SelectedPlatformGroup>Simulator</SelectedPlatformGroup>
     <DefaultDevice>iPhone 14 Pro Max iOS 16.2</DefaultDevice>
   </PropertyGroup>
