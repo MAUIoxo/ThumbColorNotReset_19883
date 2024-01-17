@@ -16,7 +16,7 @@
             <!-- Group Header Template:  Titles of a Group --> 
             <CollectionView.GroupHeaderTemplate>
                 <DataTemplate x:DataType="viewModels:GroupedStoreSelectionItemList">
-                    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
                         <Label FontSize="16" FontAttributes="Bold" Text="{Binding GroupName, StringFormat=' {0}'}" TextColor="{StaticResource Tertiary}" Margin="0, 25, 0, 0" />
                         <BoxView HeightRequest="0.5" Color="{StaticResource Gray200}" HorizontalOptions="FillAndExpand" Margin="0, 5, 0, 5" />
                     </StackLayout>
@@ -28,7 +28,7 @@
                 <DataTemplate x:DataType="{x:Type databaseModels:StoreSelection}">
                     <Grid ColumnDefinitions="*, Auto" RowDefinitions="Auto" Padding="{OnPlatform Default='5, 0, 5, 0', iOS='5, 0, 5, 15'}">
                         <Label Grid.Row="0" Grid.Column="0" Text="{Binding StoreItem.Name}" VerticalOptions="Center" />
-                        <Switch Grid.Row="0" Grid.Column="1" IsEnabled="True" IsToggled="{Binding IsSelected, Mode=TwoWay}" ThumbColor="{StaticResource Gray100}" OnColor="{StaticResource Primary}" VerticalOptions="Center" HorizontalOptions="Center" Margin="{OnPlatform Android='0, -5, 0, -5'}"/>
+                        <Switch Grid.Row="0" Grid.Column="1" IsEnabled="True" IsToggled="{Binding IsSelected, Mode=TwoWay}" ThumbColor="{StaticResource Gray100}" OnColor="{StaticResource Orange}" VerticalOptions="Center" HorizontalOptions="Center" Margin="{OnPlatform Android='0, -5, 0, -5'}"/>
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
