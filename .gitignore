@@ -1,0 +1,30 @@
+# Visual Studio files
+*.VisualState.xml
+_UpgradeReport_Files/
+Backup*/
+[Tt]est[Rr]esult*/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+.vs
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET MAUI specific
+obj/
+bin/
+artifacts/
+*.userprefs
+*.csproj.user
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nuget/
+*.dotnet/
